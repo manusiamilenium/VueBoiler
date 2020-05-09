@@ -1,0 +1,13 @@
+{
+    "port": 8088,
+    "secret": "qwerty4u",
+    "mysql": {
+        "host": "localhost",
+        "user": "root",
+        "password": "123456",
+        "database": "VueTest"
+    },
+    "refreshTokenSecret": "some-secret-refresh-token-shit",
+    "tokenLife": 900,
+    "refreshTokenLife": 86400
+}
