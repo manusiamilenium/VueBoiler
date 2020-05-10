@@ -23,7 +23,7 @@
     },
     methods: {
     handleSubmit() {
-      alert('testing handleSubmit')
+      this.$emit('add:user', this.employee)
     },
   },
   }
